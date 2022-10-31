@@ -18,6 +18,7 @@
    * https://gka.github.io/palettes/#/9|s|002337,05e7fb,e7fbfb|ffffe0,ff005e,006c09|1|1
    */
   --chroma-secondary-a: #002337;
+  --chroma-secondary-a-hsl: 202, 100%, 11%;
   --chroma-secondary-b: #043c50;
   --chroma-secondary-c: #10566b;
   --chroma-secondary-d: #227286;
@@ -26,6 +27,8 @@
   --chroma-secondary-g: #76c8d5;
   --chroma-secondary-h: #a2e4ec;
   --chroma-secondary-i: #e7fbfb;
+  --chroma-secondary-i-hsl: 180, 71%, 95%;
+
 
   --chroma-dark-secondary-a: #0e1317;
   --chroma-dark-secondary-b: #1a2c39;
