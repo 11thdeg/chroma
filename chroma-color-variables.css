@@ -9,8 +9,10 @@
   --chroma-primary-d:#3fa356;
   --chroma-primary-e:#5ab754;
   --chroma-primary-f:#79cb51;
-  --chroma-primary-g:#9bdd4d;
-  --chroma-primary-h:#c2ef48;
+  --chroma-primary-g:#99dd4b;
+  --chroma-primary-g-hsl: 88, 68%, 58%;
+  --chroma-primary-h:#c3ef48;
+  --chroma-primary-h-hsl: 76, 84%, 61%;
   --chroma-primary-i:#eeff41;
 
   /*
@@ -23,7 +25,8 @@
   --chroma-secondary-c: #10566b;
   --chroma-secondary-d: #227286;
   --chroma-secondary-e: #388ea1;
-  --chroma-secondary-f: #53abbb;
+  --chroma-secondary-f: #54abbb;
+  --chroma-secondary-f-hsl: 189, 43%, 53%;
   --chroma-secondary-g: #76c8d5;
   --chroma-secondary-h: #a2e4ec;
   --chroma-secondary-i: #e7fbfb;
