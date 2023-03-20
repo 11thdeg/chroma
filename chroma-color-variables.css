@@ -109,3 +109,20 @@
   --chroma-primary-10-hsl: 65deg, 100%, 83%;
 
 }
+
+.dark {
+  --chroma-surface: var(--chroma-key-10);
+  --chroma-surface-complement: var(--chroma-key-90);
+  /* Elevation */
+  --chroma-elevation-1: var(--chroma-key-20);
+  --chroma-elevation-2: var(--chroma-key-30);
+  --chroma-elevation-3: var(--chroma-key-40);
+}
+.light {
+  --chroma-surface: white; /* var(--chroma-key-99); */
+  --chroma-surface-complement: var(--chroma-key-40);
+  /* Elevation */
+  --chroma-elevation-1: var(--chroma-key-99);
+  --chroma-elevation-2: var(--chroma-key-99);
+  --chroma-elevation-3: var(--chroma-key-99);
+}
