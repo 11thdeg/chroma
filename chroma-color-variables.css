@@ -54,7 +54,7 @@
   --chroma-alert-field-tint: rgba(187, 17, 135, 0.4);
 }
 
-.chroma-experimental {
+:root {
   /*
    * WGAC + MUI 3 inspired colors
    */
