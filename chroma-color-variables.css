@@ -97,7 +97,7 @@
   --chroma-primary-10: hsl(65deg, 100%, 83%);
 
   --chroma-primary-99-hsl: 185deg, 100%, 14%;
-  --chroma-primary-95-hsl: 170deg, 100%, 20%;
+  --chroma-primary-99: 170deg, 100%, 20%;
   --chroma-primary-90-hsl: 159, 74%, 27%;
   --chroma-primary-80-hsl: 147, 56%, 36%;
   --chroma-primary-70-hsl: 134, 44%, 44%;
@@ -117,6 +117,9 @@
   --chroma-elevation-1: var(--chroma-secondary-b);
   --chroma-elevation-2: var(--chroma-secondary-c);
   --chroma-elevation-3: var(--chroma-secondary-d);
+
+  /* Tints */
+  --chroma-tint-1-hsl: var(--chroma-primary-20-hsl);
 }
 .light {
   --chroma-surface: white; /* var(--chroma-key-99); */
@@ -125,4 +128,6 @@
   --chroma-elevation-1: var(--chroma-key-99);
   --chroma-elevation-2: var(--chroma-key-99);
   --chroma-elevation-3: var(--chroma-key-99);
+  /* Tints */
+  --chroma-tint-1-hsl: var(--chroma-primary-20-hsl);
 }
