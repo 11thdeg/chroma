@@ -126,7 +126,7 @@
   --chroma-surface-complement: var(--chroma-key-40);
   /* Elevation */
   --chroma-elevation-1: hsla(var(--chroma-primary-80-hsl), 0.11);
-  --chroma-elevation-2: hsla(var(--chroma-primary-80-hsl), 0.11);
+  --chroma-elevation-2: hsla(var(--chroma-primary-80-hsl), 0.22);
   --chroma-elevation-3: hsla(var(--chroma-primary-80-hsl), 0.11);
   /* Tints */
   --chroma-tint-1-hsl: var(--chroma-primary-80-hsl);
