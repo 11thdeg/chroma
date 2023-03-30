@@ -113,6 +113,7 @@
 .dark {
   --chroma-surface: var(--chroma-key-10);
   --chroma-surface-complement: var(--chroma-key-90);
+  --chroma-separator: var(--chroma-primary-95);
   /* Elevation */
   --chroma-elevation-1: var(--chroma-secondary-b);
   --chroma-elevation-2: var(--chroma-secondary-c);
@@ -124,6 +125,7 @@
 .light {
   --chroma-surface: white; /* var(--chroma-key-99); */
   --chroma-surface-complement: var(--chroma-key-40);
+  --chroma-separator: var(--chroma-key-90);
   /* Elevation */
   --chroma-elevation-1: hsla(var(--chroma-primary-80-hsl), 0.11);
   --chroma-elevation-2: hsla(var(--chroma-primary-80-hsl), 0.22);
