@@ -85,7 +85,7 @@
 
   /* primary palette, in material 3 style notation */
   --chroma-primary-99: hsl(185deg, 100%, 14%);
-  --chroma-primary-95: hsl(170deg, 100%, 20%);
+  --chroma-primary-95: rgb(0, 102, 85);
   --chroma-primary-90: hsl(159, 74%, 27%);
   --chroma-primary-80: hsl(147, 56%, 36%);
   --chroma-primary-70: hsl(134, 44%, 44%);
@@ -115,6 +115,8 @@
 
   --chroma-surface: var(--chroma-key-10);
   --chroma-surface-complement: var(--chroma-key-90);
+  --chroma-surface-primary: var(--chroma-primary-95);
+
   --chroma-separator: var(--chroma-primary-95);
   /* Elevation */
   --chroma-elevation-1: var(--chroma-secondary-b);
@@ -129,6 +131,7 @@
   --chroma-key: var(--chroma-key-30);
 
   --chroma-surface: white; /* var(--chroma-key-99); */
+  --chroma-surface-primary: var(--chroma-primary-10);
   --chroma-surface-complement: var(--chroma-key-40);
   --chroma-separator: var(--chroma-key-90);
   /* Elevation */
