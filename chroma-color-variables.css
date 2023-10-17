@@ -122,6 +122,7 @@
   --chroma-elevation-1: var(--chroma-secondary-b);
   --chroma-elevation-2: var(--chroma-secondary-c);
   --chroma-elevation-3: var(--chroma-secondary-d);
+  --chroma-box-shadow-elevation-3: 0px 0 16px 16px var(--chroma-key-10);
 
   /* Tints */
   --chroma-tint-complement: hsla(var(--chroma-key-90-hsl), 0.11);
