@@ -112,6 +112,8 @@
 
 .dark {
   --chroma-key: var(--chroma-key-99);
+  --chroma-key-medium: hsla(var(--chroma-key-99-hsl), 0.78);
+  --chroma-key-low: hsla(var(--chroma-key-99-hsl), 0.63);
 
   --chroma-surface: var(--chroma-key-10);
   --chroma-surface-complement: var(--chroma-key-90);
