@@ -129,6 +129,9 @@
   /* Tints */
   --chroma-tint-complement: hsla(var(--chroma-key-90-hsl), 0.11);
   --chroma-tint-1-hsl: var(--chroma-primary-20-hsl);
+  --chroma-tint-1: hsla(var(--chroma-primary-20-hsl), 0.11);
+  --chroma-tint-2: hsla(var(--chroma-primary-20-hsl), 0.22);
+  --chroma-tint-3: hsla(var(--chroma-primary-20-hsl), 0.33);
 }
 .light {
   --chroma-key: var(--chroma-key-30);
@@ -141,7 +144,11 @@
   --chroma-elevation-1: hsla(var(--chroma-primary-80-hsl), 0.11);
   --chroma-elevation-2: hsla(var(--chroma-primary-80-hsl), 0.22);
   --chroma-elevation-3: hsla(var(--chroma-primary-80-hsl), 0.11);
+  
   /* Tints */
   --chroma-tint-complement: hsla(var(--chroma-key-40-hsl), 0.11);
   --chroma-tint-1-hsl: var(--chroma-primary-80-hsl);
+  --chroma-tint-1: hsla(var(--chroma-primary-80-hsl), 0.11);
+  --chroma-tint-2: hsla(var(--chroma-primary-80-hsl), 0.22);
+  --chroma-tint-3: hsla(var(--chroma-primary-80-hsl), 0.33);
 }
